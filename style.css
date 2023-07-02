@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Times New Roman', Times, serif; */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+
+header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:white;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    background-color: white;
+    background: transparent;
+   
+  
+}
+.unlist{
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 20px;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #767676;
+    font-size: 18px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.sub{
+    border-radius: 30px;
+   background: #04ddb2;
+   padding: 15px 20px;
+   border-style: none;
+   font-weight: 700;
+   color:white;
+   font-size: 18px;
+   width: 129px;
+    height: 48px;
+align-items: center;
+
+}
+
+.sub:hover{
+    transform: scale(1.03);
+    
+}
+.sub:active{
+    transform: scale(.95)
+}
+
+.section-1{
+text-align: center;
+margin-top: 150px;
+position: unset;
+}
+.lobetour{
+    font-size: 65px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    cursor: default;
+
+}
+.tour{
+    color: #04ddb2;
+}
+p{
+    
+    cursor: default;
+    /* position: relative; */
+    font-size: 25px;
+    line-height: 1.45;
+    margin-bottom: 40px;
+    max-width: 850px;
+    margin-left: 21.5%;
+    
+}
+img{
+    border-radius: 2%;
+}
+.img1{
+    height: 500px;
+    width:900px
+   
+    
+    
+}
+img:hover{
+    transform: scale(1.009);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    
+}
+.imgg{
+    pad: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+   
+    
+}
+main{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.train{
+    font-size: 55px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    cursor: default;
+    margin-bottom: 50px;
+}
+.line{
+   
+    border-style: solid;
+    border-bottom: #04ddb2;
+  
+}
+footer{
+
+   
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 30px;
+     gap: 70px;
+     margin-top: 30px;
+    
+     
+     
+   
+    
+}
+
+hr{
+    width: 60%;
+    margin-left: 300px;
+}
+.icons{
+    display: flex;
+    align-items: first baseline;
+    gap: 40px;
+    
+   
+}
+
+.a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.msg{
+    background:  #04ddb2;
+    padding: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+
